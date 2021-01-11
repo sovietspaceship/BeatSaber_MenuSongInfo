@@ -1,4 +1,4 @@
-﻿using BS_Utils.Utilities;
+using BS_Utils.Utilities;
 using IPA;
 using BeatSaberMarkupLanguage.Tags;
 using BeatSaberMarkupLanguage.Components;
@@ -6,7 +6,6 @@ using UnityEngine;
 using System.Linq;
 using IPALogger = IPA.Logging.Logger;
 using System;
-
 
 namespace MenuSongInfo
 {
@@ -21,7 +20,7 @@ namespace MenuSongInfo
             Logger = logger;
         }
 
-            [OnStart]
+        [OnStart]
         public void OnStart()
         {
             BSEvents.gameSceneLoaded += OnGameSceneLoaded;
