@@ -1,0 +1,14 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "MenuSongInfo",
+  "name": "MenuSongInfo",
+  "author": "sovietspaceship",
+  "version": "0.0.1",
+  "description": "Display current score percentage in the pause menu; meant for hidden UI mode",
+  "gameVersion": "1.13.0",
+  "dependsOn": {
+    "BSIPA": "^4.1.0",
+    "BeatSaberMarkupLanguage": "^1.4.0",
+  },
+  "features": []
+}
